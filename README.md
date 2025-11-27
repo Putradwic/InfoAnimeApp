@@ -28,14 +28,26 @@ Dibangun dengan **Jetpack Compose**, aplikasi ini dirancang dengan tampilan mode
 
 ### 📸 Screenshot Aplikasi
 
-| No. | Tampilan                      | Gambar |
-| --- | ----------------------------- | ------- |
-| 1   | Home – Top 10 Anime           | ![Top10](./screeshoot/HomeSectionTop10Anime.png) |
-| 2   | Home – Seasonal Anime         | ![SeasonAnime](./screeshoot/HomeSectionLastSeasonAnime.png) |
-| 3   | Home – This Season's Anime    | ![ThisSeason](./screeshoot/HomeSectionThisSeason'sAnime.png) |
-| 4   | Home – Upcoming Anime         | ![Upcoming](./screeshoot/HomeSectionUpcomingAnime.png) |
-| 5   | Menu – Home                   | ![MenuHome](./screeshoot/MenuHome.png) |
-| 6   | Menu – Search Anime           | ![MenuSearch](./screeshoot/MenuSearchAnime.png) |
-| 7   | Menu – Seasonal Anime         | ![MenuSeasonal](./screeshoot/MenuSeasonalAnime.png) |
-| 8   | Menu – Top Anime              | ![MenuTop](./screeshoot/MenuTopAnime.png) |
-| 9   | Menu – Upcoming Anime         | ![MenuUpcoming](./screeshoot/MenuUpcomingAnime.png) |
+| No. | Tampilan                    | Gambar |
+| --- | --------------------------- | ------ |
+| 1   | Home – Top 10 Anime         | <img src="./screeshoot/HomeSectionTop10Anime.png" width="250"> |
+| 2   | Home – Seasonal Anime       | <img src="./screeshoot/HomeSectionLastSeasonAnime.png" width="250"> |
+| 3   | Home – This Season's Anime  | <img src="./screeshoot/HomeSectionThisSeason'sAnime.png" width="250"> |
+| 4   | Home – Upcoming Anime       | <img src="./screeshoot/HomeSectionUpcomingAnime.png" width="250"> |
+| 5   | Menu – Home                 | <img src="./screeshoot/MenuHome.png" width="250"> |
+| 6   | Menu – Search Anime         | <img src="./screeshoot/MenuSearchAnime.png" width="250"> |
+| 7   | Menu – Seasonal Anime       | <img src="./screeshoot/MenuSeasonalAnime.png" width="250"> |
+| 8   | Menu – Top Anime            | <img src="./screeshoot/MenuTopAnime.png" width="250"> |
+| 9   | Menu – Upcoming Anime       | <img src="./screeshoot/MenuUpcomingAnime.png" width="250"> |
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [📱 Aplikasi Informasi Anime — Jikan API](#-aplikasi-informasi-anime--jikan-api)
+  - [✨ Fitur Utama](#-fitur-utama)
+  - [🛠 Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+    - [📸 Screenshot Aplikasi](#-screenshot-aplikasi)
+
+<!-- /code_chunk_output -->
+
