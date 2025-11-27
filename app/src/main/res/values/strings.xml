@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">Ime</string>
+
+    <!-- Common Actions -->
+    <string name="action_see_all">See All</string>
+    <string name="action_load_more">Load More</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_search">Search</string>
+
+    <!-- Common States -->
+    <string name="state_loading">Loading...</string>
+    <string name="state_error">Something went wrong</string>
+    <string name="state_empty">No data available</string>
+
+    <!-- Navigation (dari structure doc) -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_top">Top Anime</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Seasons -->
+    <string name="season_winter">Winter</string>
+    <string name="season_spring">Spring</string>
+    <string name="season_summer">Summer</string>
+    <string name="season_fall">Fall</string>
+
+    <!-- Anime Types -->
+    <string name="type_tv">TV</string>
+    <string name="type_movie">Movie</string>
+    <string name="type_ova">OVA</string>
+
+    <!-- Home Screen (predicted) -->
+    <string name="home_hero_section">Featured Anime</string>
+    <string name="home_search_placeholder">Search anime...</string>
+    <string name="home_top_anime">Top 10 Anime</string>
+    <string name="home_current_season">This Season</string>
+    <string name="home_previous_season">Last Season</string>
+    <string name="home_upcoming">Upcoming</string>
+
+    <!-- Top Screen (predicted) -->
+    <string name="top_title">Top Anime</string>
+    <string name="top_rank">Rank #%1$d</string>
+
+
 </resources>

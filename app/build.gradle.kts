@@ -28,6 +28,16 @@ android {
                 "proguard-rules.pro"
             )
         }
+
+        debug {
+            buildConfigField("Boolean", "DEBUG", "true")
+        }
+
+        release {
+            buildConfigField("Boolean", "DEBUG", "false")
+            isMinifyEnabled = false
+        }
+
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -38,6 +48,16 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.4"
+    }
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
     }
 }
 
@@ -50,6 +70,38 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+
+    // ViewModel + Runtime Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.0")
+
+    // Navigation Compose
+    implementation("androidx.navigation:navigation-compose:2.8.0")
+
+    // Retrofit + OkHttp
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // Coil (image loader)
+    implementation("io.coil-kt:coil-compose:2.5.0")
+
+    // DataStore (Theme + Language)
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+
+    // Accompanist System UI (status bar control)
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
+
+    // Paging (recommended untuk infinite scroll Top & Seasonal)
+    implementation("androidx.paging:paging-compose:3.3.2")
+
+    implementation("com.jakewharton.timber:timber:5.0.1")
+    implementation(libs.androidx.ui)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

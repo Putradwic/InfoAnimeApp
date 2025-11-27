@@ -1,4 +1,9 @@
 # Add project specific ProGuard rules here.
+-keep class com.example.animeinfo.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
 #
