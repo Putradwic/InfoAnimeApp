@@ -44,10 +44,5 @@ Dibangun dengan **Jetpack Compose**, aplikasi ini dirancang dengan tampilan mode
 
 <!-- code_chunk_output -->
 
-- [📱 Aplikasi Informasi Anime — Jikan API](#-aplikasi-informasi-anime--jikan-api)
-  - [✨ Fitur Utama](#-fitur-utama)
-  - [🛠 Teknologi yang Digunakan](#-teknologi-yang-digunakan)
-    - [📸 Screenshot Aplikasi](#-screenshot-aplikasi)
-
 <!-- /code_chunk_output -->
 
